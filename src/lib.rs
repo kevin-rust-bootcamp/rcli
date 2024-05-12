@@ -2,6 +2,7 @@ mod cli;
 use anyhow::Result;
 pub use cli::*;
 use enum_dispatch::enum_dispatch;
+mod process;
 
 /// A trait for objects that can execute commands.
 ///
